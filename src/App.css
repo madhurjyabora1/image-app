@@ -25,26 +25,27 @@ input[type="text"] {
 }
 
 .grid {
-  width: 100%;
+  width: 80%;
   max-width: 1280px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 0;
   list-style-type: none;
+  margin-top: 70px;
 }
 
 .grid__item {
   margin: 0 10px 20px;
-  flex: 1 1 290px;
+  flex: 0 0 290px;
 }
 
 .card {
   background-color: #fff;
   overflow: hidden;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 2px;
+  border-radius: 10px;
   line-height: 0;
   cursor: pointer;
   position: relative;
@@ -249,6 +250,9 @@ form.inputImage input[type="text"] {
   background: #f1f1f1;
   margin-bottom: 20px;
   border-radius: 20;
+  font-weight: 400;
+  margin-left: 155px;
+  width: 500px;
 }
 
 form.inputImage button {
@@ -265,7 +269,9 @@ form.inputImage button {
   position: absolute;
   right: 40px;
   top: 5px;
-  text-align: center;
+
+  margin-right: 570px;
+  /* transform: translate(-970%,0%); */
 }
 
 form.inputImage button:hover {
@@ -342,4 +348,8 @@ form.inputImage::after {
   padding-top: 7px;
   left: 60px;
   color: gray;
+}
+
+.ficon {
+  transform: translate(2%, -15%);
 }
